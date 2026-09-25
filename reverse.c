@@ -3,7 +3,7 @@
 void reverse() {
   int n, reverse = 0, remainder, original;
 
-  printf("Sairam please Enter an integer: \n");
+  printf("\n Sairam please Enter an integer:");
   scanf("%d", &n);
 
   original = n;  
@@ -15,14 +15,14 @@ void reverse() {
   }
 
   if (original % 10 == 0) {
-    printf("Reversed number = %d", reverse);
+    printf("Reversed number = %d", reverse,"\n");
     
     while (original % 10 == 0) {
       printf("0");
       original /= 10;
     }
   } else {
-    printf("Reversed number = %d", reverse);
+    printf("Reversed number = %d", reverse,"\n");
   }
 
 //  return 0;
