@@ -2,7 +2,7 @@
 void factorial() {
     int n, i;
     unsigned long long fact = 1;
-    printf("\n Sairam please Enter an integer: ");
+    printf("\n SairamDHYAN please Enter an integer: ");
     scanf("%d", &n);
 
     // shows error if the user enters a negative integer
